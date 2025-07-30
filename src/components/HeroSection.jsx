@@ -1,11 +1,11 @@
 import React from "react";
-import heroImg from "../assets/africa-image.png";
+// import heroImg from "../assets/africa-image.png";
 
 const HeroSection = () => {
   return (
     // className="bg-cover bg-center text-white py-20 px-4 lg:px-16" style={{ backgroundImage: `url(${heroImg})` }}
     <section>
-      <div className="max-w-4xl mx-auto text-center backdrop-blur-sm bg-black/40 rounded-xl p-6">
+      <div className="max-w-2xl mx-auto text-center backdrop-blur-sm bg-black/40 rounded-xl p-6">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Building Africa’s Future Through Digital Transformation
         </h1>
