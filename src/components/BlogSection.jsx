@@ -24,13 +24,13 @@ const BlogSection = () => {
 
   return (
     <section className="px-6 py-12 bg-white">
-      <div className="max-w-7xl mx-auto text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">
+      <div className=" mx-auto text-center mb-12">
+        <h1 className="text-4xl xl:text-9xl font-bold mb-4">
           <span className="text-blue-800">What Truly</span>{" "}
           <span className="text-blue-500">Sets Us Apart.</span>
         </h1>
 
-        <p className=" text-lg text-gray-600 max-w-3xl mx-auto">
+        <p className=" text-xl xl:text-3xl text-[#d6d6d6] max-w-3xl mx-auto">
           At the heart of everything we do is a simple philosophy - to create
           digital solutions that don't just work, but matter. We're not just
           ticking boxes; we're crafting experiences, solving real problems and
@@ -38,19 +38,19 @@ const BlogSection = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 gap-10 lg:h-fit m-5">
         {cards.map((card, index) => (
           <div
             key={index}
-            className="flex flex-col justify-between bg-blue-100 p-5 rounded-2xl shadow hover:shadow-lg transition"
+            className="flex flex-col justify-between bg-blue-200 p-5 xl:p-10 rounded-3xl shadow hover:shadow-lg transition"
           >
             <div>
-              <h2 className="text-lg font-semibold text-blue-800 mb-2">
+              <h2 className="text-xl xl:text-6xl font-semibold text-blue-800 mb-2 xl:mb-10">
                 {card.title}
               </h2>
-              <p className="text-gray-700">{card.content}</p>
+              <p className="text-gray-700 xl:text-4xl">{card.content}</p>
             </div>
-            <button className="mt-6 self-start bg-blue-500 text-white font-medium py-1.5 px-4 rounded-xl hover:bg-blue-200 transition">
+            <button className="mt-6 xl:text-xl  self-start bg-[#029cc3] text-white font-medium py-1.5 px-4 rounded-3xl hover:bg-blue-200 transition">
               WORK WITH US
             </button>
           </div>

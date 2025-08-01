@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-gray-100 px-6 py-12">
+    <footer className="bg-[#005197] text-gray-100 px-6 py-12">
       <div className="max-w-7xl mx-auto text-center mb-10">
         <h2 className="text-4xl text-white font-bold mb-4">Ready to Build With Us?</h2>
         <button className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-full hover:bg-blue-200 transition">
@@ -28,8 +28,8 @@ const Footer = () => {
         <div>
           <h3 className="font-bold text-white mb-4">Company</h3>
           <ul className="space-y-2 text-white">
-            <li><a href="#">Join Our Team</a></li>
-            <li><a href="#">Invest</a></li>
+            <li><a href="/contact">Join Our Team</a></li>
+            <li><a href="#"> Make Payments</a></li>
           </ul>
         </div>
 

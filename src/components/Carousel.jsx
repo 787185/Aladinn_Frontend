@@ -35,8 +35,8 @@ const LogoCarousel = () => {
   };
 
   return (
-    <div className="w-full bg-white py-10 px-5">
-        <h1 className="text-3xl md:text-3xl max-w-2xl text-blue-800 mx-auto mt-5 text-center font-bold mb-4">
+    <div className="w-full bg-white py-5 px-5">
+        <h1 className="text-3xl lg:text-5xl md:text-3xl max-w-2xl lg:max-w-4xl text-blue-800 mx-auto mt-5 text-center font-bold ">
           Trusted by startups, brands and organizations across Africa
         </h1>
       <Slider {...settings}>
@@ -45,7 +45,7 @@ const LogoCarousel = () => {
             <img
               src={logo.src}
               alt={logo.alt}
-              className="h-45 object-contain"
+              className=" xl:h-150 object-contain"
             />
           </div>
         ))}
