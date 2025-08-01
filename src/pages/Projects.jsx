@@ -231,7 +231,7 @@ const Projects = () => {
                                     left: 0,
                                     right: 0,
                                     zIndex: 2,
-                                    backgroundColor: 'rgba(0,0,0,0.6)',
+                                    backgroundColor: '#029cc3',
                                     color: 'white',
                                     padding: '10px 15px',
                                     transition: 'opacity 0.3s ease, transform 0.3s ease',
